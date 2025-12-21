@@ -1,0 +1,7 @@
+• Boot into TWRP (recovery)
+• Install firmware (2.0.205.0) for respective Region's.
+• Install the ROM
+• Reinstall recovery (or enable Auto Reflash Recovery in TWRP)
+• Reboot to recovery
+• Format Data (note: Format Data is different from Wipe Data)
+• Done (Reboot to system)
