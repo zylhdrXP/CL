@@ -5,8 +5,8 @@
     <remote name="zyl" fetch="https://github.com/zylhdrXP/" />
     <remote name="stuff" fetch="https://github.com/stuff-garnet/" />
     <remote name="guidix" fetch="https://github.com/GuidixX/" />
-    <remote name="unmoved" fetch="https://github.com/unmoved21/" />
-    <remote name="selly" fetch="https://github.com/crdroidandroid/" />
+    <remote name="selly" fetch="https://github.com/MySelly/" />
+    <remote name="crd" fetch="https://github.com/crdroidandroid/" />
     <remote name="signafl" fetch="https://github.com/RdW-afk/" />
 
     <!-- Device tree -->
@@ -24,19 +24,19 @@
     <!-- Kernel -->
     <project path="kernel/xiaomi/garnet"
              name="android_xiaomi_kernel_garnet"
-             remote="selly"
+             remote="crd"
              revision="16.0" />
 
     <!-- Kernel modules -->
     <project path="kernel/xiaomi/garnet-modules"
              name="android_kernel_xiaomi_garnet-modules"
-             remote="unmoved"
+             remote="selly"
              revision="lineage-23.0" />
 
     <!-- Kernel devicetrees -->
     <project path="kernel/xiaomi/garnet-devicetrees"
              name="android_kernel_xiaomi_garnet-devicetrees"
-             remote="unmoved"
+             remote="selly"
              revision="lineage-23.0" />
 
     <!-- Hardware Xiaomi -->
