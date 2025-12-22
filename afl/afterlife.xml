@@ -45,12 +45,6 @@
              remote="stuff"
              revision="bp3a" />
 
-    <!-- MiuiCamera vendor -->
-    <project path="vendor/xiaomi/miuicamera-garnet"
-             name="vendor_xiaomi_miuicamera-garnet"
-             remote="stuff"
-             revision="bp3a" />
-
     <!-- MiuiCamera device -->
     <project path="device/xiaomi/miuicamera-garnet"
              name="device_xiaomi_miuicamera-garnet"
