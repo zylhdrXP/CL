@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remote definitions -->
+    <remote name="zyl" fetch="https://github.com/zylhdrXP/" />
+    <remote name="stuff" fetch="https://github.com/stuff-garnet/" />
+    <remote name="guidix" fetch="https://github.com/GuidixX/" />
+    <remote name="unmoved" fetch="https://github.com/unmoved21/" />
+
+
+
+    <!-- Device tree -->
+    <project path="device/xiaomi/garnet"
+             name="android_device_xiaomi_garnet"
+             remote="zyl"
+             revision="16-afl" />
+
+    <!-- Vendor tree -->
+    <project path="vendor/xiaomi/garnet"
+             name="proprietary_vendor_xiaomi_garnet"
+             remote="zyl"
+             revision="16" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/garnet"
+             name="android_kernel_xiaomi_garnet"
+             remote="zyl"
+             revision="16-suki" />
+
+    <!-- Kernel modules -->
+    <project path="kernel/xiaomi/garnet-modules"
+             name="android_kernel_xiaomi_garnet-modules"
+             remote="unmoved"
+             revision="lineage-23.0" />
+
+    <!-- Kernel devicetrees -->
+    <project path="kernel/xiaomi/garnet-devicetrees"
+             name="android_kernel_xiaomi_garnet-devicetrees"
+             remote="unmoved"
+             revision="lineage-23.0" />
+
+    <!-- Hardware Xiaomi -->
+    <project path="hardware/xiaomi"
+             name="hardware_xiaomi"
+             remote="stuff"
+             revision="bp3a" />
+
+    <!-- MiuiCamera vendor -->
+    <project path="vendor/xiaomi/miuicamera-garnet"
+             name="vendor_xiaomi_miuicamera-garnet"
+             remote="stuff"
+             revision="bp3a" />
+
+    <!-- MiuiCamera device -->
+    <project path="device/xiaomi/miuicamera-garnet"
+             name="device_xiaomi_miuicamera-garnet"
+             remote="stuff"
+             revision="bp3a" />
+
+    <!-- XiaomiDolby -->
+    <project path="packages/apps/XiaomiDolby"
+             name="packages_apps_XiaomiDolby"
+             remote="stuff"
+             revision="bp3a" />
+
+    <!-- XiaomiParts -->
+    <project path="packages/apps/XiaomiParts"
+             name="packages_apps_XiaomiParts"
+             remote="guidix"
+             revision="16" />
+
+</manifest>
