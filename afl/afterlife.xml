@@ -6,8 +6,7 @@
     <remote name="stuff" fetch="https://github.com/stuff-garnet/" />
     <remote name="guidix" fetch="https://github.com/GuidixX/" />
     <remote name="unmoved" fetch="https://github.com/unmoved21/" />
-
-
+    <remote name="selly" fetch="https://github.com/crdroidandroid/" />
 
     <!-- Device tree -->
     <project path="device/xiaomi/garnet"
@@ -23,9 +22,9 @@
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/garnet"
-             name="android_kernel_xiaomi_garnet"
-             remote="zyl"
-             revision="16-suki" />
+             name="android_xiaomi_kernel_garnet"
+             remote="selly"
+             revision="16.0" />
 
     <!-- Kernel modules -->
     <project path="kernel/xiaomi/garnet-modules"
