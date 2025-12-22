@@ -7,6 +7,7 @@
     <remote name="guidix" fetch="https://github.com/GuidixX/" />
     <remote name="unmoved" fetch="https://github.com/unmoved21/" />
     <remote name="selly" fetch="https://github.com/crdroidandroid/" />
+    <remote name="signafl" fetch="https://github.com/RdW-afk/" />
 
     <!-- Device tree -->
     <project path="device/xiaomi/garnet"
@@ -61,5 +62,11 @@
              name="packages_apps_XiaomiParts"
              remote="guidix"
              revision="16" />
+    
+    <!-- Signing -->
+    <project path="vendor/afterlife-priv"
+             name="vendor_afterlife-priv/"
+             remote="signafl"
+             revision="bkl" />
 
 </manifest>
