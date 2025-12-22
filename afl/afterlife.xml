@@ -42,7 +42,7 @@
     <!-- Hardware Xiaomi -->
     <project path="hardware/xiaomi"
              name="hardware_xiaomi"
-             remote="stuff"
+             remote="zyl"
              revision="bp3a" />
 
     <!-- MiuiCamera device -->
