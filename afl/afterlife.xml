@@ -5,8 +5,7 @@
     <remote name="zyl" fetch="https://github.com/zylhdrXP/" />
     <remote name="stuff" fetch="https://github.com/stuff-garnet/" />
     <remote name="guidix" fetch="https://github.com/GuidixX/" />
-    <remote name="selly" fetch="https://github.com/MySelly/" />
-    <remote name="crd" fetch="https://github.com/crdroidandroid/" />
+    <remote name="random" fetch="https://github.com/garnet-random" />
     <remote name="signafl" fetch="https://github.com/RdW-afk/" />
 
     <!-- Device tree -->
@@ -22,21 +21,21 @@
              revision="16" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/garnet"
-             name="android_xiaomi_kernel_garnet"
-             remote="crd"
-             revision="16.0" />
+    <project path="kernel/xiaomi/sm7435"
+             name="android_xiaomi_kernel_sm7435"
+             remote="random"
+             revision="lineage-23.0" />
 
     <!-- Kernel modules -->
-    <project path="kernel/xiaomi/garnet-modules"
-             name="android_kernel_xiaomi_garnet-modules"
-             remote="selly"
+    <project path="kernel/xiaomi/sm7435-modules"
+             name="android_kernel_xiaomi_sm7435-modules"
+             remote="random"
              revision="lineage-23.0" />
 
     <!-- Kernel devicetrees -->
-    <project path="kernel/xiaomi/garnet-devicetrees"
-             name="android_kernel_xiaomi_garnet-devicetrees"
-             remote="selly"
+    <project path="kernel/xiaomi/sm7435-devicetrees"
+             name="android_kernel_xiaomi_sm7435-devicetrees"
+             remote="random"
              revision="lineage-23.0" />
 
     <!-- Hardware Xiaomi -->
