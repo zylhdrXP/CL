@@ -23,7 +23,7 @@
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm7435"
              name="android_xiaomi_kernel_sm7435"
-             remote="random"
+             remote="zyl"
              revision="lineage-23.0" />
 
     <!-- Kernel modules -->
@@ -61,6 +61,12 @@
              name="packages_apps_XiaomiParts"
              remote="guidix"
              revision="16" />
+
+    <!-- Game Bar -->
+    <project path="packages/apps/GameBar"
+             name="packages_apps_GameBar"
+             remote="zyl"
+             revision="main" />
     
     <!-- Signing -->
     <project path="vendor/afterlife-priv"
