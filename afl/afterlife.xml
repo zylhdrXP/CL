@@ -22,7 +22,7 @@
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm7435"
-             name="android_xiaomi_kernel_sm7435"
+             name="android_kernel_xiaomi_sm7435"
              remote="zyl"
              revision="lineage-23.0" />
 
@@ -41,7 +41,7 @@
     <!-- Hardware Xiaomi -->
     <project path="hardware/xiaomi"
              name="hardware_xiaomi"
-             remote="zyl"
+             remote="stuff"
              revision="bp3a" />
 
     <!-- MiuiCamera device -->
