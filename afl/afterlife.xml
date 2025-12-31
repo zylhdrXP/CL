@@ -4,7 +4,6 @@
     <!-- Remote definitions -->
     <remote name="zyl" fetch="https://github.com/zylhdrXP/" />
     <remote name="stuff" fetch="https://github.com/stuff-garnet/" />
-    <remote name="guidix" fetch="https://github.com/GuidixX/" />
     <remote name="random" fetch="https://github.com/garnet-random" />
     <remote name="signafl" fetch="https://github.com/RdW-afk/" />
 
@@ -56,18 +55,12 @@
              remote="stuff"
              revision="bp3a" />
 
-    <!-- XiaomiParts -->
-    <project path="packages/apps/XiaomiParts"
-             name="packages_apps_XiaomiParts"
-             remote="guidix"
-             revision="16" />
-
-    <!-- Game Bar -->
+    <!-- GameBar -->
     <project path="packages/apps/GameBar"
              name="packages_apps_GameBar"
              remote="zyl"
              revision="main" />
-    
+
     <!-- Signing -->
     <project path="vendor/afterlife-priv"
              name="vendor_afterlife-priv/"
