@@ -2,6 +2,7 @@
 
 ### Performance & CPU
 * **upstream:** android12-5.10.251
+* **SU:** Pre-rooted with multi manager support (KernelSU-Next, SukiSU-Ultra, KowSU, RKSU, WildKSU, MamboSU, VortexSU)
 * **hz:** Set CONFIG_HZ=300
 * **clang:** Compiled with Clang 21 & LTO_CLANG_FULL
 * **core:** Enable full PREEMPT for improved system responsiveness
