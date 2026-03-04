@@ -1,4 +1,12 @@
-## FleurX v2 Changelog - 4/03/2026
+## FleurX v2.1 Changelog - 05/03/2026
+
+* **upstream:** android12-5.10.252
+* **SU:** KernelSU Next v3 & SUSFS 2.0
+* **merge:** Merged rama staging branch https://github.com/ramabondanp/android_kernel_common-5.10
+
+---
+
+## FleurX v2 Changelog - 04/03/2026
 
 ### Performance & CPU
 * **upstream:** android12-5.10.251
