@@ -1,3 +1,14 @@
+## FleurX v2.2 Changelog - 08/03/2026
+
+* slub: Optimized SLUB Memory Allocator
+* msm: kgsl: Remove sync fence names
+* ptrace: reset ptrace_message on resume to prevent PID leak
+* mm: kmemleak: Don't die when memory allocation fails
+* mm/slab_common: Align all caches' objects to hardware cachelines
+* mm: Tweak memory pressure
+* locking/qspinlock: Micro-optimize pending state waiting for unlock
+* SU: Pre-rooted with multi manager support
+
 ## FleurX v2.1 Changelog - 05/03/2026
 
 * **upstream:** android12-5.10.252
