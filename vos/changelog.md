@@ -1,3 +1,16 @@
+# 11/05/2026 - VoltageOS 5.9
+- Sync with LineageOS device tree
+- Explicitly disable Enable GL comp backpressure
+- Rm package cache on early boot
+- parts: GPU Manager, Kernel Manager, Clear Speaker & Bypass Charge UI changes.
+- Switch to Moto Dolby
+- Add support for Dolby Spatial Audio
+- Enable Dolby Vision support
+- cpufreq: reflex: call android_vh_map_util_freq to fix SODs
+- kernel: Merge Linux Stable branch (5.10.255)
+- KernelSU-Next 3.2.0 & SUSFS 2.1.0 included
+
+---
 # 28/04/2026 - VoltageOS 5.8
 - Kang Adreno driver from aurora OS3.0.7.0.WNACNXM (V@762.36 OGL & VK 1.3.128)
 - Use hwui and add some hwui props for improve perf
