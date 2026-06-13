@@ -1,3 +1,30 @@
+# 13/06/2026 - VoltageOS 5.10
+- Update from OS3.0.5.0.WNRMIXM (@grewal)
+- Updated Miui Camera from OS3.0.5.0.WNRMIXM (@grewal)
+- Include Gapps
+- Switch back to Lunaris Dolby UI
+- Include JamesDSP
+- Drop Spatial Audio
+- dolby: Patch libdolbyvision.so to allocate GraphicBuffer with new size (@ArianK16a)
+- surfaceflinger: Reduce max acquired frame buffers to 2
+- overlay: Add overlay to improve signal reception
+- reduce uclamp.min value to 125
+- props: Set ro.netflix.bsp_rev from stock
+- Import V837.0.7 GPU drivers (@adrenolaboratory)
+- Relax thermal limits and optimize charging behavior (@zerotwo-alt)
+- kernel: Merge branch 'android12-5.10-lts' of https://android.googlesource.com/kernel/common (5.10.257)
+- Merge tag 'KERNEL.PLATFORM.1.0.r3-07500-kernel.0' of https://git.codelinaro.org/clo/la/kernel/msm-5.10
+- Merge tag 'CAMERA.LA.2.0.r2-06600-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel
+- Merge tag 'DISPLAY.LA.2.0.r3-04000-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-drivers
+- Merge tag 'VIDEO.LA.2.0.r2-04500-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-driver
+- Merge tag 'LA.VENDOR.1.0.r2-16600-WAIPIO.QISI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0
+- Merge tag 'LA.VENDOR.1.0.r2-16600-WAIPIO.QISI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn
+Merge tag 'LA.VENDOR.1.0.r2-16600-WAIPIO.QISI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api
+- cpufreq: reflex: avoid startup race in rfx_start
+- kernel: ANDROID: Build multi-gen LRU
+- kernel: ANDROID: Enable CONFIG_LAZY_RCU
+- kernel: Enable BBRplus
+
 # 11/05/2026 - VoltageOS 5.9
 - Sync with LineageOS device tree
 - Explicitly disable Enable GL comp backpressure
