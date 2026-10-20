@@ -1,4 +1,4 @@
-# 19/06/2026 - VoltageOS 6.2
+# 19/10/2026 - VoltageOS 6.2
 - Adapt for Android 17
 - Update from OS3.0.302.0.WNRMIXM
 - Reduce max acquired frame buffers to 2
