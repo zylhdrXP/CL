@@ -17,6 +17,7 @@
 - Tune interaction and launch hints
 - Add uclamp and L3 boost hints
 - Sync latest LunarisDolby UI
+- Garnet Parts fixes & improvement
 - Unlock Dual Video multi-camera recording mode
 - Leica UI & Filter
 - Add missing Leica video filter
