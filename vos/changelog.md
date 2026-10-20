@@ -1,3 +1,54 @@
+# 19/06/2026 - VoltageOS 6.2
+- Adapt for Android 17
+- Update from OS3.0.302.0.WNRMIXM
+- Reduce max acquired frame buffers to 2
+- Add overlay to improve signal reception
+- Disable Skia tracing by default
+- Increase audio offload buffer size from 32KB to 64KB
+- Further reduce uclamp values
+- set debug.sf.auto_latch_unsignaled to 1
+- set debug.sf.enable_advanced_sf_phase_offset=1
+- Set debug.sf.disable_client_composition_cache to 0
+- Disable EGL image tracking
+- Add webview pinning
+- Set default pin amount for home app
+- Add ntsync module
+- Set correct permission for ntsync
+- Tune interaction and launch hints
+- Add uclamp and L3 boost hints
+- Unlock Dual Video multi-camera recording mode
+- Leica UI & Filter
+- Add missing Leica video filter
+- Neverallow app open access to /dev/ashmem
+- Restrict apps access to /proc/net/unix
+- Disable QCOM system daemon
+- miuicamera: Update icon from HyperOS 4
+- Implement torch light control & Fix broken camera app flash
+- Set torch default strength level to max
+- Add support for Dolby Vision
+- Update thermal profiles
+- Drop thermal profiles tile service
+- Set the io-scheduler to adios
+- Do not balance msm_drm and kgsl_3d0 IRQs
+- Set primitive vibrator effects (Better haptics)
+- Alias TEXTURE_TICK effect to TICK waveform
+- Revert "garnet: Update sf duration to 12.3ms", Set base sf work durations duration props from stock, Wire up per fps sf durations, (@grewal)
+- Fix invalid frequencies in powerhint
+- Tune interaction hint profile
+- Optimize expensive rendering hint
+- Add camera shot and low power hints
+- Bump minimal brightness to 25 for 41_02_0c panel (@grewal)
+- Kernel:
+- Merge branch 'android12-5.10' & 'android12-5.10-lts of https://android.googlesource.com/kernel/common
+- Merge CodeLinaro OSS Kernel tag 'KERNEL.PLATFORM.1.0.r3-07800-kernel.0'
+- boeffla_wl_blocker: add generic wakelock blocker driver v1.1.0
+- tcp: bbr: BBRv3 backport
+- Merge CodeLinaro OSS Vendor tag 'LA.VENDOR.1.0.r2-17000-WAIPIO.QISI15.0'
+- Reduce video & audio driver logspam
+- Kernel changelog details:
+- https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/bb21b0cda496a12c2a1d6206d032a2f2a755d797
+- https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/b14c00f5d5d8c16c8308ecf9204f2f74c1e60492
+
 # 13/06/2026 - VoltageOS 5.10
 - Update from OS3.0.5.0.WNRMIXM (@grewal)
 - Updated Miui Camera from OS3.0.5.0.WNRMIXM (@grewal)
