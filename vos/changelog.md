@@ -40,7 +40,7 @@
 - Optimize expensive rendering hint
 - Add camera shot and low power hints
 - Bump minimal brightness to 25 for 41_02_0c panel (@grewal)
-- Kernel:
+- Kernel: 5.10.269:
 - Merge branch 'android12-5.10' & 'android12-5.10-lts of https://android.googlesource.com/kernel/common
 - Merge CodeLinaro OSS Kernel tag 'KERNEL.PLATFORM.1.0.r3-07800-kernel.0'
 - boeffla_wl_blocker: add generic wakelock blocker driver v1.1.0
